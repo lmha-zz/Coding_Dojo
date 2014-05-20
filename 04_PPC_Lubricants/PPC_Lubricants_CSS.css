@@ -1,0 +1,135 @@
+* {
+	font-family:'arial';
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color:#333333;
+}
+body{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #FDFDFD;
+}
+ul{	background: linear-gradient(to bottom, #F1F5F6 8%,#DBE2E8 18%, #CDD5DB 19%,#EBEFF3 52%, #F1F1F1 52%);
+	padding: 0 0 30px 37px;
+	border-top: 1px solid grey;
+	list-style-type: none;
+	font-size: 0;
+}
+ul li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 9px 20px 9px 20px;
+	border-right: 1px solid gainsboro;
+	border-left:1px solid white;
+}
+ul li:first-child {
+	border-left:none;
+}
+ul li:last-child{
+	border-right:none;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size:11px;
+	color:dimgrey;
+}
+h1 {
+	background: linear-gradient(gold, goldenrod); /* Standard syntax */
+	padding: 5px 10px;
+	font-size:12px;
+}
+h2 {
+	color:white;
+	padding: 16px;
+	font-size: 14px
+}
+h3 {
+	background: linear-gradient(gold, goldenrod); /* Standard syntax */
+	padding: 5px;
+	border-bottom: 1px black solid;
+}
+input {
+	background-color: gold;
+	border: 2px black solid;
+	font-size: 9px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 5px 10px;
+	margin: 10px 0 10px 110px;
+	font-weight:bold;
+}
+.building {
+	border: 5px solid white;
+}
+.opaque {
+	display: inline-block;
+	position:absolute;
+	background-color: grey;
+	opacity:0.4;
+	margin: 0 0 0 10px;
+	width: 535px;
+	height: 265px;
+}
+.about {
+	width:535px;
+	display: inline-block;
+	position:relative;
+	vertical-align: top;
+	margin:0 0 0 10px;
+	height: 265px;
+}
+.about p{
+	padding: 0 16px 16px 16px;
+	color:white;
+}
+.bold{
+	font-weight: bold;
+	color:white;
+}
+.ppc-logo-bldg {
+	background-color: white;
+	margin: 8px 10px 5px 10px;
+}
+#header p {
+	display: inline-block;
+	font-size: 18px;
+	margin: 35px 0 0 308px;
+	vertical-align: top;
+	font-weight: bold;
+}
+#logo {
+	padding: 0 0 0 20px;
+	background: linear-gradient(whitesmoke, white); /* Standard syntax */
+}
+#main-wrapper{
+	background: linear-gradient(to right, black 20%,rgba(0,0,0,0) 50%,black 80%), url(textured_paper.png) no-repeat;
+	background-repeat:repeat;
+	padding: 15px 30px;
+}
+#gold {
+	color: olive;
+	font-size: 11px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px 10px 8px 10px;
+}
+#bottom div{
+	display: inline-block;
+	border: 2px solid #1A1A1A;
+	background-color:white;
+	width: 216px;
+	margin: 0 0 0 16px;
+	vertical-align: top;
+}
+#bottom p{
+	font-size: 11px;
+	padding: 10px;
+}
+#bottom div:first-child {
+	margin:0;
+}
+#bottom div:nth-child(2) input{
+	margin: 22px 0 10px 110px;
+}
